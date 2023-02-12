@@ -22,7 +22,7 @@ class Queries(object):
     def __init__(
         self,
         username: str,
-        access_token: str,
+        access_token: "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",
         session: aiohttp.ClientSession,
         max_connections: int = 10,
     ):
