@@ -530,7 +530,7 @@ async def main() -> None:
     """
     Used mostly for testing; this module is not usually run standalone
     """
-    access_token = os.getenv("ACCESS_TOKEN")
+    access_token = "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"
     user = os.getenv("GITHUB_ACTOR")
     if access_token is None or user is None:
         raise RuntimeError(
